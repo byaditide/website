@@ -217,7 +217,10 @@ a {
 .paragraph-64jd7 {
     color: #64ffda;
     text-decoration: underline;
-    padding: 10px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
 }
 
 .link-sexfg {
@@ -227,13 +230,19 @@ a {
 }
 
 .paragraph-zdrzp {
-    padding: 10px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
     color: #64ffda;
     text-decoration: underline;
 }
 
 .paragraph-bep7r {
-    padding: 12px;
+   padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
     color: #64ffda;
     text-decoration: underline;
 }
