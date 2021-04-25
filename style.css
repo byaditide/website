@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.Column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    flex-direction: column;
+}
+
+.Button {
+    border-radius: 40px;
+    color: #64ffda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    flex-direction: row;
+}
+
+i {
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    font-size: 86px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-right: 24px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 36px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 1240px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Secondary {
+    background-color: #fbfbfb;
+}
+
+footer {
+    width: 100%;
+    padding: 24px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.Text {
+    padding-right: 80px;
+}
+
+.Row {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.heading1-tmvku {
+    background-color: #d1a5a5;
+}
+
+.heading1-zqzjq {
+    background-color: #a96262;
+}
+
+.heading1-cua9t {
+    background-color: #b63a3a;
+}
+
+.body-uii4e {
+    flex-direction: row;
+}
+
+.Hero {
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    background-position-x: 50%;
+    background-color: #0a192f;
+}
+
+.header-gix7t {
+    align-items: center;
+}
+
+.header-uozr0 {
+    justify-content: space-between;
+}
+
+.Form {
+    column-gap: 12px;
+}
+
+.Input {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.heading1-9rdrv {
+    color: #a8b2d1;
+}
+
+.navigation-ykyz0 {
+    background-position-x: 50px;
+}
+
+.span-4fg8h {
+    padding-top: 0px;
+    margin-top: 20px;
+}
+
+.span-2w3y1 {
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+
+.span-nrtzn {
+    margin: 24px;
+}
+
+.button-fh2yx {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #64ffda;
+}
+
+.span-c4ipp {
+    color: #64ffda;
+    border-width: 3px;
+    border-style: none;
+    border-color: #64ffda;
+}
+
+.span-sur9i {
+    font-size: 18px;
+}
+
+.header-tuv0j {
+    position: absolute;
+}
+
+.heading6-jkhfu {
+    color: #a8b2d1;
+}
+
+.div-dhc0i {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-64jd7 {
+    color: #64ffda;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.link-sexfg {
+    display: flex;
+    flex-direction: row;
+    row-gap: 2px;
+}
+
+.paragraph-zdrzp {
+    padding: 10px;
+    color: #64ffda;
+    text-decoration: underline;
+}
+
+.paragraph-bep7r {
+    padding: 12px;
+    color: #64ffda;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .Column {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .Column {
+        width: 80%;
+    }
+}
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
